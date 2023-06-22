@@ -14,6 +14,7 @@
   h5{
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 30px;
   }
   h4{
     text-align: center;
@@ -33,16 +34,21 @@
   }
 
  .btn{
-  color: #737373;
-  border: #CACFD2;
+  background-color: #E1C09D;
+  color: black;
+  border-radius: 5px;
  }
+
+ .carousel-inner{
+  margin-top: 20px;
+ }
+
 .card{
-  width: 300px;
-  height: 500px;
   text-align: center;
-  margin-left: 160px;
+  padding: 20px;
   margin-top: 30px;
   background-color: #CACFD2;
+  
 }
 
  footer{
