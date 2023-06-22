@@ -38,12 +38,14 @@ class Cliente {
   console.log(arrayClienteAgregado);
   
   function saludo() {
-   Swal.fire({
-     title: 'En breve resonderemos tu mensaje',
-     width: 600,
-     padding: '3em',
-     color: '#737373', 
-   });
+    Swal.fire({
+      
+      icon: 'success',
+      title: 'En breve resonderemos tu mensaje',
+      showConfirmButton: false,
+      timer: 1500
+    });
  }
+
  
  document.getElementById("btn-enviar").addEventListener("click", saludo);
