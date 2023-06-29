@@ -32,6 +32,12 @@
   .bg-custom {
     background-color:#CACFD2 ;
   }
+  
+.img-encabezado {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
  .btn{
   background-color: #E1C09D;
