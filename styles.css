@@ -29,13 +29,23 @@
     background-color:#d9d9d9;
   }
 
+  .custom-link {
+    color: black;
+    transition: color 0.3s;
+  }
+
+  .custom-link:hover {
+    color: #E1C09D;
+  }
+  
+
   .bg-custom {
     background-color:#CACFD2 ;
   }
   
 .img-encabezado {
   width: 100%;
-  height: auto;
+  height: 100vh;
   object-fit: cover;
 }
 
@@ -52,6 +62,11 @@
  .img-presente{
   width: 350px;
   height: 650px;
+ }
+
+ .img-w{
+  width: 200px;
+  height: 200px;
  }
 
 .card{

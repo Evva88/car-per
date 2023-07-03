@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../styles.css" />
     <link
       rel="shortcut icon"
-      href="../assset/images/logo.png"
+      href="../assset/images/logo-Car.jpg"
       type="image/x-icon"
     />
   </head>
@@ -22,55 +22,39 @@
   <body>
     <header>
       <div>
-        <img src="./assset/images/CAR-PER.png" class="img-fluid" style="max-width: 100%; height: auto;" alt="" />
+        <img src="../assset/images/CAR-PER-fotor-2023070372659.jpg" class="img-fluid  max-width: 100% height: auto;" alt="" />
       </div>
     </header>
       <main>
-      <nav class="navbar navbar-expand-lg bg-custom">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">Nosotros</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="../pag/presente.html"
-                  >Presente</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="../pag/Contacto.html"
-                  >Contacto</a
-                >
-              </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-custom">
+          <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link custom-link fs-4" aria-current="page" href="../index.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  custom-link fs-4" href="../pag/presente.html">Presente</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  custom-link fs-4" href="../pag/Contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
     
    
       <h5>Envianos tu mensaje, con todas con consultas</h5>
       
       <div class="container">
-        <section class="formulario" action="https://formsubmit.co/evavelli5@gmail.com" method="POST">
         <div class="row">
           <div class="col-md-6">
-      <form id="formulario">
+      <form id="myForm">
         <div class="form">
           <div class="mb-3">
             <label class="form-label">Ingrese su Nombre</label>
@@ -82,11 +66,11 @@
           </div>
           <div class="mb-3">
             <label class="form-label">Empresa</label>
-            <input type="text" class="form-control opacity-50" id="apellido" />
+            <input type="text" class="form-control opacity-50" id="empresa" />
           </div>
           <div class="mb-3">
             <label class="form-label">Ingrese su E-mail</label>
-            <input type="email" class="form-control opacity-50" id="mail" />
+            <input type="email" class="form-control opacity-50" id="email" />
           </div>
           <div class="mb-3">
             <label class="form-label">Ingrese su Telefono</label>
@@ -96,13 +80,17 @@
             <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu Mensaje</label>
             <textarea class="form-control opacity-50" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <button id="btn-enviar" class="btn">Enviar</button>
+          <button type="submit"  id="btn-enviar" class="btn">Enviar</button>
         </div>
       </form>
-    </section>
     </div>
     <div class="container">
-        <img src="../assset/images/whatsapp.svg" alt="">
+       <h5>Tambien podes escribirnos a nuestro
+        whatsapp
+       </h5>
+       <a href="https://api.whatsapp.com/send/?phone=1127028543&text&type=phone_number&app_absent=0">
+        <img src="../assset/images/whats-fotor-2023070381734.jpg" class="img-w">
+        </a>
     </div>
     </main>
 
@@ -124,11 +112,7 @@
   </body>
   
 
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"
-  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.6/dist/sweetalert2.all.min.js"></script>
   <script src="../pag/formulario.js"></script>
 </html>
